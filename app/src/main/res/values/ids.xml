@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_choose5" type="id" />
+    <item name="btn_choose6" type="id" />
+    <item name="btn_choose7" type="id" />
+    <item name="btn_choose8" type="id" />
+</resources>
