@@ -73,7 +73,7 @@ public class playActivity extends AppCompatActivity {
                             isclickBtn = false;
 
                             if(!valueChoose.equals(correct_list[currentQuestion])){
-                                Toast.makeText(playActivity.this , "erreur",Toast.LENGTH_LONG).show();
+                                Toast.makeText(playActivity.this , "error",Toast.LENGTH_LONG).show();
                                 btn_click.setBackgroundResource(R.drawable.background_btn_erreur);
 
                             }else {
@@ -94,7 +94,7 @@ public class playActivity extends AppCompatActivity {
 
                                 }else {
                                     Intent intent  = new Intent(playActivity.this , ResulteActivity.class);
-                                    intent.putExtra("Resute" , scorePlayer);
+                                    intent.putExtra("Result" , scorePlayer);
                                     startActivity(intent);
                                     finish();
                                 }
@@ -102,7 +102,7 @@ public class playActivity extends AppCompatActivity {
                             },2000);
 
                         }else {
-                            Toast.makeText(playActivity.this ,  "Vous devez en choisir un",Toast.LENGTH_LONG).show();
+                            Toast.makeText(playActivity.this ,  "You must choose one.",Toast.LENGTH_LONG).show();
                         }
                 }
         );
